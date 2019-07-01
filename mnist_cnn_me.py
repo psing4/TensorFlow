@@ -13,8 +13,8 @@ mnist = input_data.read_data_sets("./samples/MNIST_data/", one_hot=True)
 
 # hyper parameters
 learning_rate = 0.001
-training_epochs = 20
-batch_size = 200
+training_epochs = 20 #20번 돌리겠다.
+batch_size = 200 #200개를
 
 # input place holders
 X = tf.placeholder(tf.float32, [None, 784]) #한줄의 행렬로 나타냄 
